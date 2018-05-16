@@ -1,0 +1,10 @@
+/*style for example 1*/
+p.first-paragrap{
+	color: green;
+}
+#main ul li.hung{
+	color: red;
+}
+ul li{
+	color: yellow;
+}

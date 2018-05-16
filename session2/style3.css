@@ -1,0 +1,12 @@
+#header{
+	height: 150px;
+	border: 1px solid green;
+}
+#content{
+	height: 300px;
+	border: 1px solid green;
+}
+#footer{
+	height: 150px;
+	border: 1px solid green;
+}
