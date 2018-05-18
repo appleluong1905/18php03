@@ -1,0 +1,15 @@
+.demo{
+/*	border: 3px solid red;*/
+	border-top: 5px solid green;
+	border-right: 10px dashed red;
+	border-left: 2px dotted blue;
+	border-bottom: 5px solid yellow;
+	height: 100px;
+	width: 200px;
+	/*padding: 10px;*/
+	padding-top: 70px;
+	padding-left: 178px;
+	/*margin: 30px;*/
+	margin-top: 50px;
+	margin-left: 100px;
+}
