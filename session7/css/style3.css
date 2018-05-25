@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#containter {
+	width: 100%;
+}
+#header {
+	height: 200px;
+	width: 100%;
+	border: 1px solid green;
+}
+.logo {
+	width: 30%;
+	height: 200px;
+	float: left;
+	border-right: 1px solid green;
+	text-align: center;
+	line-height: 200px;
+}
+.slogan {
+	width: 70%;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
+#slider {
+	height: 300px;
+	line-height: 300px;
+	border-bottom: 1px solid green;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.logo {
+		width: 49.5%;
+	}
+	.slogan {
+		float: left;
+		width: 49.5%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.logo {
+		width: 100%;
+	}
+	.slogan {
+		display: none;
+	}
+}
