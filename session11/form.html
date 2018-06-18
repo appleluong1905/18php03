@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form - Session 11</title>
+</head>
+<body>
+	<p>Register form</p>
+	<form action="login.html" name = "register_form" method="post" target="_blank">
+		<p>Name: <input type="text" name="name" placeholder="Please input your name" maxlength="10" required></p>
+		<p>Password: <input type="password" name="password" tabindex="2" required></p>
+		<p>Email: <input type="text" name="email" disabled value="apple.luong1905@gmail.com"></p>
+		<p>Phone: <input type="text" name="phone" readonly value="0988794607" tabindex="1"></p>
+		<p>Homephone: <input type="text" name="homephone" required pattern="\d{5}([\-]\d{4})?" title="Please input ex: 99999 or 99999-9999"></p>
+		<p>Other email: <input type="email" name="email2" required></p>
+		<p>Website: <input type="url" name="website" required></p>
+		<p>Number: <input type="number" name="number" min="0" max="10" step="2"></p>
+		<p>Range: <input type="range" name="range" min="0" max="10" step="2"></p>
+		<p>Date: <input type="date" name="date"></p>
+		<p>Datetime: <input type="datetime-local" name="datetime"></p>
+		<p>Month: <input type="month" name="month"></p>
+		<p>Color: <input type="color" name="color"></p>
+		<p>Gender:
+		<input type="radio" name="gender"> Male
+		<input type="radio" name="gender" checked> Female
+		<input type="radio" name="gender"> Other
+		</p>
+		<p>Faviorite:
+		<input type="checkbox"  checked name="faviorite1"> Football
+		<input type="checkbox" checked name="faviorite2"> Film
+		<input type="checkbox" name="faviorite3"> Shopping
+		</p>
+		<p>Avatar <input type="file" name="avatar" accept="image/jpg, image/png"></p>
+		<p>Description<textarea cols="40" rows="10"></textarea></p>
+		<p>Country:
+		<select multiple>
+			<option>Viet Nam</option>
+			<option>Lao</option>
+			<option>Campuchia</option>
+		</select>
+		</p>
+		<p>Hidden:<input type="hidden" name="myBank"></p>
+		<input type="submit" name="register" value="Register">
+		<input type="button" name="button_register" value="Register">
+		<input type="reset" name="reset" value="Reset">
+		<input type="image" name="reset" src="anh1.jpg" width="100">
+	</form>
+</body>
+</html>

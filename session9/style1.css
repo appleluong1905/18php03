@@ -1,0 +1,26 @@
+ul li.air{
+	list-style-image: url('airplane-symbol.png');
+}
+ul li.tree{
+	list-style-image: url('favicon.ico');
+}
+ol li{
+	list-style-type: upper-roman;
+}
+/*a:link{
+	color: green;
+}
+a:visited{
+	color: yellow;
+}
+a:hover{
+	color: white;
+	font-size: 30px;
+	background-color: green;
+}*/
+a {
+	text-decoration: none;
+}
+#content1, #content2, #content3 {
+	height: 800px;
+}

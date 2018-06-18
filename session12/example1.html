@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript 1 - Session 12</title>
+	<!-- Internal -->
+	<script type="text/javascript">
+		//alert('internal demo');
+	</script>
+	<style type="text/css">
+		
+	</style>
+	<link rel="stylesheet" type="text/css" href="">
+
+</head>
+<body>
+	<!-- Inline -->
+	<a href="#" onclick="alert('inline demo');" style="color:green;">Inline example</a>
+	<p id ="demo">Noi dung ban dau</p>
+	<a href="#" onclick="document.getElementById('demo').innerHTML = 'doi noi dung tren'">Thay doi noi dung phia tren</a>
+	<!-- <script type="text/javascript" src="common.js"></script> -->
+	<img src="anh1.jpg" alt="anh" width="300" height="300" id="anh">
+	<a href="#" onclick="document.getElementById('anh').src = 'anh2.jpg'">Thay doi anh tren thanh anh khac</a>
+	<a href="#" onclick="document.getElementById('demo').style.color = 'red'">Thay doi text tren thanh mau do</a>
+	<a href="#" onclick="document.getElementById('demo').style.fontSize = '30px'">Thay doi font text tren thanh 30px</a>
+	<a href="#" onclick="document.getElementById('demo').style.display = 'none'">An doan text o tren</a>
+	<script type="text/javascript" src="common.js"></script>
+</body>
+</html>
