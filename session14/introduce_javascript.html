@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduce - session 14</title>
+	<style type="text/css">
+		#demo4{
+			border: 2px solid green;
+			padding: 3px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<!-- (1) Thay doi noi dung cua thanh phan HTML -->
+	<p id="demo1">Hello Javascript</p>
+
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello 18PHP03'">Change content</a>
+
+	<!-- (2) Thay doi thuoc tinh cua 1 doi tuong trong HTML -->
+	<img id="demo2" src="anh1.jpg" alt="Anh" width="200" height="200">
+	<p onclick="document.getElementById('demo2').src = 'anh2.jpg'">Change image</p>
+	<!-- (3) Thay doi style cua doi tuong HTML -->
+	<p id="demo3">Hello 18PHP03</p>
+	<a onclick="document.getElementById('demo3').style.color = 'red'">Change color</a>
+
+
+	<!-- (4,5)An - hien mot doi tuong HTML -->
+	<p id="demo4">Hello 18PHP03</p>
+	<a  href='#' onclick="document.getElementById('demo4').style.display = 'none'">Hide me</a>
+	<a href='#' onclick="document.getElementById('demo4').style.display = 'block'">Show me</a>
+</body>
+</html>
