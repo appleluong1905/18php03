@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example jquery</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<p id="demo">Hello PHP03</p>
+<!-- 	<a href="#" id="hide_demo" onclick="hideDemo();">Hide content</a> -->
+	<a href="#" id="hide_demo">Hide content</a>
+	<script type="text/javascript">
+		function hideDemo(){
+			document.getElementById('demo').style.display = 'none';
+		}
+		//jquery
+		$('#hide_demo').click(function(){
+			$('#demo').hide();
+		});
+
+
+
+		//document.getElementById('demo')
+		//$('#demo')
+
+	</script>
+</body>
+</html>
