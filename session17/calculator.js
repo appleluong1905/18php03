@@ -13,5 +13,8 @@ function del(){
 	tmp = '';
 }
 function back(){
-	
+	var result = $('#result').val();
+	var lengResult = result.length;
+	var	resultNew = result.substring(0,lengResult-1); 
+	$('#result').val(resultNew);
 }
