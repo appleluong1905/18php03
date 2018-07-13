@@ -2,14 +2,17 @@
 <html>
 <head>
 	<title>Example 1 - session 17</title>
-	<link rel="stylesheet" type="text/css" href="jquery-3.3.1.min.js">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	<h1>Register form</h1>
 	<form>
-		<p>Name:<input type="text" name="name"></p>
-		<p>Phone:<input type="text" name="phone"></p>
-		<p><input type="button" name="register" value="Register"></p>
+		<p>Name:<input type="text" name="name" id="name"></p>
+		<p>Phone:<input type="text" name="phone" id="phone"></p>
+		<p><input type="button" name="register" value="Register" id="register"></p>
 	</form>
+	<p id="show-name"></p>
+	<p id="show-phone"></p>
+	<script type="text/javascript" src="common.js"></script>
 </body>
 </html>

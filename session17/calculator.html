@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 1 - session 17</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<h1>Calculator</h1>
+	<div id="calculator">
+		<input type="text" name="result" readonly class="calculator-result" id="result">
+		<input type="button" class="calculator-child-1" value="AC" onclick="del()">
+		<input type="button" class="calculator-child-1" value="Back" onclick="back()">
+		<input type="button" class="calculator-child" value="1" onclick="cal('1')">
+		<input type="button" class="calculator-child" value="2" onclick="cal('2')">
+		<input type="button" class="calculator-child"value="3" onclick="cal('3')">
+		<input type="button" class="calculator-child"value="+" onclick="cal('+')">
+		<input type="button" class="calculator-child" value="4" onclick="cal('4')">
+		<input type="button" class="calculator-child"value="5" onclick="cal('5')">
+		<input type="button" class="calculator-child"value="6" onclick="cal('6')">
+		<input type="button" class="calculator-child"value="-" onclick="cal('-')">
+		<input type="button" class="calculator-child"value="7" onclick="cal('7')">
+		<input type="button" class="calculator-child"value="8" onclick="cal('8')">
+		<input type="button" class="calculator-child"value="9" onclick="cal('9')">
+		<input type="button" class="calculator-child"value="*" onclick="cal('*')">
+		<input type="button" class="calculator-child" value="0" onclick="cal('0')">
+		<input type="button" class="calculator-child" value="." onclick="cal('.')">
+		<input type="button" class="calculator-child" value="=" onclick="result('=')">
+		<input type="button" class="calculator-child"value="/" onclick="cal('/')">
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
